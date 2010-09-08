@@ -19,9 +19,7 @@ as.hoc(x,time=lst(),phi=getOption("latitude"))
   \item{time}{Local Sidereal Time - the LST at the moment by default.}
   \item{phi}{Latitude of the observer - taken from options by default.}
 }
-\details{
 
-}
 \value{
   An converted object of desired class.
 }

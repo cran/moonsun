@@ -1,11 +1,11 @@
-`print.jd` <-
+print.jd <-
 function (x,...)
- 
 {
-	res = data.frame(jday=as.vector(x));
-	class(res$jday)="jd";
+	res = data.frame(date=as.vector(x));
+	class(res$date)="jd";
 	rownames(res)=names(x);
-	print(res);
-	invisible(res);
+	rrr <- data.frame(res, as.character(res))
+	colnames(rrr) <- c("Date", "Julian Date") 
+	print(rrr);
 }
 

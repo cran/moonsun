@@ -15,7 +15,7 @@ constel(x)
   \item{x}{ an object of class eqc }
 }
 \details{
-  ~~ If necessary, more details than the description above ~~
+  To be added.
 }
 \value{
   

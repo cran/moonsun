@@ -1,14 +1,13 @@
 `jd` <-
-function (year=0,month=0,day=0,epoch=Sys.time(),length=1,by=1) 
+function (year = NULL, month = NULL, day= NULL, epoch = Sys.time(), length = 1, by = 1 ) 
 {
-
-	if (!any(year,month,day)) {
+	if (any(is.null(year),is.null(month),is.null(day))) {
 				daylt = as.POSIXlt(epoch);
 				year = daylt$year+1900;
 				month = daylt$mon+1;
 				day = daylt$mday;
 			}
-
+			
 	if ((month == 1) || (month == 2)) {
 				year = year - 1;
 				month = month + 12;
@@ -27,8 +26,9 @@ function (year=0,month=0,day=0,epoch=Sys.time(),length=1,by=1)
 	d = floor(30.6001 * (month + 1));
 
 	
-	julian = seq(b+c+d+day+1720994.5,length=length,by=by);
+	julian = seq(b+c+d+day+1720994.5,length = length,by=by);
 	class(julian)="jd";
+	
 	return(julian);
 }
 

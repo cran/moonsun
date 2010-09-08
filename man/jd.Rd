@@ -6,7 +6,7 @@
   a sequence.
 }
 \usage{
-jd(year = 0, month = 0, day = 0, epoch = Sys.time(), length = 1, by = 1)
+jd(year = NULL, month = NULL, day = NULL, epoch = Sys.time(), length = 1, by = 1)
 }
 \arguments{
   \item{year}{ year }
