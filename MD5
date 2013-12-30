@@ -1,4 +1,4 @@
-7af54bfbb082ea7f339b8ba9c7443f14 *DESCRIPTION
+e7c04bc22d46bb8cebfd9699cf656876 *DESCRIPTION
 9fdfeb11f7ddba6f3aab9aaa6b1ac5dd *NAMESPACE
 ea58f731899593fa936fcf299edb6908 *R/angle.R
 7e15332a7eedc7a931ab2c5ae0cc530a *R/as.ecc.R
@@ -52,7 +52,7 @@ a91dcfce9d423912995c009f3ae00bb7 *man/ecc.Rd
 749c32ef4b60ef8668a33966a053488e *man/format.dms.Rd
 dc7df45bc16af291ff7e45ace8d78bcd *man/format.jd.Rd
 da54065060036dfdb2855a47a2759c26 *man/format.time.Rd
-bf17d9744aa39147c872d5afdf659749 *man/gmt.Rd
+accc7cbe57c8c8a1a69a04dc6382f75b *man/gmt.Rd
 ca953e75cf5023ac37d778cc21232ca8 *man/jd.Rd
 8cc61c91454bf1a46dff04b874c3bf1d *man/moon.Rd
 88e911095f5e996a09691a2879965b61 *man/moonsun-package.Rd
@@ -63,4 +63,4 @@ ca953e75cf5023ac37d778cc21232ca8 *man/jd.Rd
 362a4ca7d65d3c3cc63798cade98051c *man/rst.Rd
 cf512e626e06398f4c871ede2dfd0de7 *man/starcat.Rd
 049859abbf5bc107ac6abbfb5055a7f6 *man/sun.Rd
-9b31b96ec533ccb89762e334ae39eee1 *man/track.Rd
+903d4c4e1ac1a40b4c230404f12578f3 *man/track.Rd

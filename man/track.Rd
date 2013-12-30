@@ -83,7 +83,8 @@ data(bright)
 data(starcat)
 
 ephem.mercury <- mercury(jd(2010,1,1,length = 365))
-track(ephem.mercury, mag = 4, interval.lab = 30, bright.lab = TRUE, starcat = starcat, bright = bright)
+track(ephem.mercury, mag = 4, interval.lab = 30, bright.lab = TRUE, 
+	starcat = starcat, bright = bright)
 
 ephem.mercury <- mercury(jd(2010,7,30,length = 60))
 track(ephem.mercury, mag = 7, interval.lab = 10, cex.star = 2, starcat = starcat, bright = bright)
